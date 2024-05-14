@@ -81,7 +81,21 @@ aside {
 .space {
 
     width: 100%;
-    height: 40px;
+    height: 150px;
+
+}
+
+.space_2 {
+
+    width: 100%;
+    height: 200px;
+
+}
+
+.space_3 {
+
+    width: 100%;
+    height: 50px;
 
 }
 
@@ -115,3 +129,8 @@ footer  p {
 }
 
 /*--------------cards.html-----------------*/ 
+.carta {
+
+    margin-bottom: 30px;
+
+}
