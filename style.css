@@ -3,10 +3,11 @@ h1,h2,h3,p,ul,ol{
 
 }
 
-h1{
+h1, h2{
     text-align: center;
     margin-top: 20px;
     font-size: 55px;
+    margin-bottom: 20px;
 }
 
 li{
@@ -15,4 +16,46 @@ li{
 
 body{
     background-color: rgb(18, 44, 129);
+}
+
+/*--------------Index-----------------*/
+
+nav {
+
+    margin-bottom: 20px;
+
+}
+
+.carousel {
+
+    margin-bottom: 20px;
+
+}
+
+.carousel img {
+
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.imagen-agua {
+
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+footer {
+
+    padding: 20px;
+
+}
+
+footer  p {
+
+    text-align: center;
+    margin-bottom: 0px;
+
 }
