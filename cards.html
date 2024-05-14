@@ -11,7 +11,7 @@
 
 </head>
 <body>
-
+  <div class="container">
     <h1>Liquid Water</h1>
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -46,20 +46,22 @@
           </form>
         </div>
       </nav>
-
+      </div>
       
 
 
     <div class="container text-center">
         <h1>Catálogo de Aguas</h1>
+        <div class="raya"></div>
         <p class="sep30"> Acá podras ver toda nuestra variedad de aguas disponibles.
         </p>
     </div>
     <div class="container separacion">
+      
         <!-- PRIMERA FILA -->
         <div class="row p-5">
             <!-- PRIMERA COLUMNA -->
-            <div class="col">
+            <div class="col-md-4 col-sm-12 contenedor">
                 <div class="card" style="width: 18rem;">
                     <img src="imagenes/aguaSinGas.webp" class="card-img-top" alt="primerAgua">
                     <div class="card-body">
@@ -70,7 +72,7 @@
                 </div>
             </div>
             <!-- SEGUNDA COLUMNA -->
-            <div class="col">
+            <div class="col-md-4 col-sm-12">
                 <div class="img_reduc">
                     <div class="card" style="width: 18rem;" >
                         <img src="imagenes/aguaConGas.webp" class="card-img-top" alt="segundaAgua">
@@ -84,7 +86,7 @@
                 </div>
             </div>
             <!-- TERCERA COLUMNA -->
-            <div class="col">
+            <div class="col-md-4 col-sm-12">
                 <div class="img_reduc">
                     <div class="card" style="width: 18rem;">
                         <img src="imagenes/aguaLimon.jpg" class="card-img-top" alt="terceraAgua">
@@ -97,5 +99,11 @@
                 </div>
             </div>
         </div>
+        <footer class="row bg-dark">
+          <div class="col-12">
+            <p>Todos los derechos reservados &copy; 2024</p>
+          </div>
+        </footer> <!------------------Fin del footer----------------->
+      </div> <!------------------Fin del container----------------->
 </body>
 </html>

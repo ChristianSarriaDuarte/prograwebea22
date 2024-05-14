@@ -59,7 +59,7 @@ nav {
 main, aside {
 
     margin-bottom: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
 
 }
 
@@ -81,7 +81,7 @@ aside {
 .space {
 
     width: 100%;
-    height: 100px;
+    height: 40px;
 
 }
 
@@ -113,3 +113,5 @@ footer  p {
     margin-bottom: 20px;
 
 }
+
+/*--------------cards.html-----------------*/
