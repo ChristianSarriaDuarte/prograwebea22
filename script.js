@@ -7,6 +7,8 @@ $(document).ready(function() {
         var name = $('#name').val();
         var email = $('#email').val();
         var password = $('#password').val();
+        var contact = $('#contact').val();
+        var adress = $('#adress').val();
 
         //validaciones
         var errors = [];
@@ -21,6 +23,14 @@ $(document).ready(function() {
 
         if (password.trim().length < 10) {
             errors.push('La contraseña debe tener al menos 10 caracteres.');
+        }
+
+        if (contact.trim().length != 8) {
+            errors.push('Ingrese un número telefonico valido (deben ser 8 digitos)');
+        }
+
+        if (adress.trim() === '') {
+            errors.push('Por favor, introduce tu dirección.');
         }
 
         //error y enviar
