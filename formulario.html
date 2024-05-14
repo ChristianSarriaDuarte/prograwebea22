@@ -51,32 +51,47 @@
 
 
 
-
+<div class="row">
+<div class="col-7 formulario">
 <form id="formulario" method="post">
 
-
-
-<label for="name" style="color: white;">Nombre</label>
+<div class="row">
+<div class="col-12 col-lg-2 d-lg-flex">
+<label class="align-self-center" for="name" style="color: white;">Nombre</label>
+</div>
+<div class="col-12 col-lg-10">
 <input type="text" id="name" name="name" placeholder="Introduce tu nombre">
+</div>
+</div>
 <br/><br/>
 
-
-
-<label for="email" style="color: white;">Correo Electronico</label>
+<div class="row">
+<div class="col-12 col-lg-2 d-lg-flex">
+<label class="align-self-center" for="email" style="color: white;">Correo Electronico</label>
+</div>
+<div class="col-12 col-lg-10">
 <input type="email" id="email" name="email" placeholder="Introduce tu correo electronico">
+</div>
+</div>
 <br/><br/>
 
 
-
-<label for="password" style="color: white;">Contraseña</label>
+<div class="row">
+<div class="col-12 col-lg-2 d-lg-flex">
+<label class="align-self-center" for="password" style="color: white;">Contraseña</label>
+</div>
+<div class="col-12 col-lg-10">
 <input type="password" id="password" name="password" placeholder="Introduce tu contraseña">
+</div>
+</div>
 <br/><br/>
 
 <div id="error-message" style="color: red;"></div>
 <input type="submit" value="Submit">
 
-
 </form>
+</div>
+</div>
 
 
 <footer class="row bg-dark">
@@ -104,7 +119,7 @@
     
     input[type=text],input[type=email],input[type=password],select,textarea{
     
-    width: 50%;
+    width: 100%;
     padding: 12px;
     border: 1px solid darkred;
     border-radius: 4px;
@@ -118,7 +133,6 @@
     
     label{
     
-    width: 100px;
     display: inline-block;
     
     
@@ -145,7 +159,7 @@
     #formulario {
     border-radius: 5px;
     background-color: rgb(29, 19, 52);
-    padding: 20px;
+    padding: 30px;
     
     
     

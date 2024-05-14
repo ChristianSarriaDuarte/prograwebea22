@@ -52,12 +52,14 @@ nav {
 .qh3 {
 
     text-align: center;
+    margin-top: 30px;
 
 }
 
 main, aside {
 
     margin-bottom: 20px;
+    margin-top: 30px;
 
 }
 
@@ -100,6 +102,14 @@ footer  p {
 .raya {
 
     border-bottom: 1px solid white;
+    margin-bottom: 20px;
+
+}
+
+/*--------------formulario.html-----------------*/
+.formulario {
+
+    margin: auto;
     margin-bottom: 20px;
 
 }
