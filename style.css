@@ -54,16 +54,19 @@ nav {
 .names {
 
     font-size: 25px;
-
-}
-
-.box-names {
-
-    margin-bottom: 30px;
+    text-decoration: underline;
 
 }
 
 /*--------------quienes.html-----------------*/
+.box-names {
+
+    margin-bottom: 20px;
+    background-color: #000;
+    padding: 30px 0px;
+    border-radius: 10px;
+
+}
 
 .qh3 {
 
@@ -133,6 +136,18 @@ footer  p {
 
     border-bottom: 1px solid white;
     margin-bottom: 20px;
+
+}
+
+.img-modal {
+
+    width: 100%;
+
+}
+
+.modal-title {
+
+    color: rgb(18, 44, 129);
 
 }
 
