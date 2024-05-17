@@ -53,7 +53,8 @@
           </div>
         </nav> <!--Fin del nav-->
 
-        
+        <h1>El agua también es afectada por su temperatura</h1>
+        <h2>Averigua cual será en la semana!</h2>
     </div>
 
     <div id="pronex"></div>
@@ -75,9 +76,15 @@
 	        console.log(response);
 
             $.each(response.forecasts, function(i, item){
+
+              // Convert temperatures from Fahrenheit to Celsius
+        let lowCelsius = Math.round((item.low - 32) * 5 / 9);
+        let highCelsius = Math.round((item.high - 32) * 5 / 9);
+
+
                 $("#pronex").append(""+"<h2 class='h22'>"+item.day+
-                                " |  Minima: "+item.low+
-                                    "°C | Maxima: "+item.high+"°C"+"</h2>")
+                                " |  Minima: "+lowCelsius+
+                                    "°C | Maxima: "+highCelsius+"°C"+"</h2>")
                 })
         });
 
